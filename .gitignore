@@ -1,0 +1,38 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/credentials/
+/secrets/
+credentials.json
+secrets.json
+ia.ini
+internetarchive.ini
+.netrc
+_netrc
+
+# Source data, media, correspondence, and operational output
+/data/
+/source-materials/
+/exports/
+/media/
+/private/
+/correspondence/
+/backups/
+/logs/
+/outputs/
+
+# Local Python and editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
